@@ -1,0 +1,38 @@
+{
+  "name": "toy-ye-mh",
+  "version": "1.0.0",
+  "description": "toy project - NodeJS & React",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihyun510/toy-ye-mh.git"
+  },
+  "keywords": [
+    "toy-ye-mh"
+  ],
+  "author": "mihyun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mihyun510/toy-ye-mh/issues"
+  },
+  "homepage": "https://github.com/mihyun510/toy-ye-mh#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "nunjucks": "^3.2.3",
+    "sequelize": "^6.12.5",
+    "sequelize-cli": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
